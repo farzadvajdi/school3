@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="https://kit.fontawesome.com/644ee7e176.js" crossorigin="anonymous"></script>
   <link
@@ -44,20 +45,19 @@
   </div>
 
 <div class="mainn">
-
-
-  <div class="text">
-        <h2>چرا دبیرستان </h2>
-  </div>
+ <div class="text">
+        <h2>  چرا دبیرستان وجدی</h2>
+      </div>
     <div class="con">
+      
       <div class="card">
         <i class="fa-brands fa-accusoft"></i>
         <h3>کتابخانه</h3>
         <p>لورم ایپسوم متن ساختگی با </p>
       </div>
       <div class="card">
-        <i class="fa-brands fa-accusoft"></i>
-        <h3>کتابخانه</h3>
+        <i class="fa-solid fa-volleyball"></i>
+        <h3>ورزش</h3>
         <p>لورم ایپسوم متن ساختگی با </p>
       </div>
       <div class="card">
@@ -82,20 +82,70 @@
       </div>
     </div>
   </div>
+
+ <div class="bod">
   
-
-
-
-  <section class="about" id="about" dir="rtl">
+ <div class="con2n">
+  <div class="text">
+    <h2>مدیریت</h2>
+  </div>
+  <div class="card2d">
+    <div class="content2t">
+      <div class="imgbx">
+       <img src="./11.jpg" alt="">
+      </div>
+      <div class="contentbx">
+         <h4>سارا</h4>
+         <h5>معاون</h5>
+         <h6>دیپلم ادبیات</h6>
+      </div>
+      <div class="sci">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card2d">
+    <div class="content2t">
+      <div class="imgbx">
+       <img src="./56.jpg" alt="">
+      </div>
+      <div class="contentbx">
+         <h4>سارا</h4>
+         <h5>مدیر</h5>
+         <h6>دیپلم ادبیات</h6>
+      </div>
+      <div class="sci">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card2d">
+    <div class="content2t">
+      <div class="imgbx">
+       <img src="./22.jpg" alt="">
+      </div>
+      <div class="contentbx">
+         <h4>ساسان</h4>
+         <h5>معاون</h5>
+         <h6>دیپلم ادبیات</h6>
+      </div>
+      <div class="sci">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+  <section class="about" id="about" dir="ltr">
     <div class="image">
       <img src="./Studying-cuate.svg" alt="">
     </div>
     <div class="content">
       <h3>درباره ما</h3>
       <p>
-        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای 
+لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع بای 
       </p>
-      <a href="#"><button class="btn">بیشتر بخوانید</button></a>
+      <a href="#"><button class="btn" id="asd">بیشتر بخوانید</button></a>
     </div>
 
   </section>
@@ -109,7 +159,7 @@
         </div>
         <div class="media-icons">
           <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.instagram.com/farzadvajdii/"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-telegram"></i></a>       
         </div>
       </div>
@@ -154,23 +204,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-  <script>
-    var swiper = new Swiper(".mySwiperr", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      slidesPerGroup: 3,
-      loop: true,
-      loopFillGroupWithBlank: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
+
+  <script src="./js.js"></script>
 
   <script>
      var swiper = new Swiper(".mySwiper", {
