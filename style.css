@@ -72,18 +72,18 @@ section{
     left: 120%;
 }
 
-.swiper {
+.Swiper {
   width: 100%;
   height: 100vh;
 }
 @media (max-width:1024px){
-    .swiper {
+    .Swiper {
     width: 100%;
     height: 100vh;
   } 
 }
 @media (max-width:700px){
-  .swiper {
+  .Swiper {
   width: 100%;
   height: 100%;
 } 
@@ -328,18 +328,28 @@ header #login:hover{
 }
 
 .about .content h3{
+  float: right;
     font-size: 3.5rem;
     color:#666;
 }
 
 .about .content p{
+    float: right;
     font-size: 1.5rem;
     color:#666;
     padding:1rem 0;
 }
 
+.about .content p{
+  float: right;
+  font-size: 1.5rem;
+  color:#666;
+  padding:1rem 0;
+}
+.about .content #asd{
+  float: right;
 
-
+}
 
 
 
@@ -516,17 +526,17 @@ footer{
   .bottom-details .bottom_text a{
     margin-left: 10px;
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     footer .content .link-boxes{
       flex-wrap: wrap;
     }
     footer .content .link-boxes .input-box{
-      width: 40%;
+      width: 48%;
       margin: 0%;
       
     }
   }
-  @media (max-width: 700px){
+  @media (max-width: 900px){
     footer{
       position: relative;
     }
@@ -581,11 +591,10 @@ footer{
     line-height: 1.5;
     width: 90%;
     margin: auto;
-   
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .text h2{
-    color: #666;
+    color: #674cc4;
   }
   .con{
     display: grid;
@@ -626,6 +635,92 @@ footer{
     }
   }
 
-  
+.bod{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: #f9f7ff;
+}
+.con2n{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.con2n .card2d{
+  width: 330px;
+  height: 416px;
+  margin: 20px;
+  background: #f9f7ff;
+  box-shadow: 0.6em 0.6em 1.2em #e2d9ff,
+              -0.5em -0.5em 1em #e2d9ff;
+              border-radius: 20px ;       
+  cursor: pointer;                  
+}
+.con2n .card2d .content2t{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.con2n .card2d .content2t .imgbx{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.con2n .card2d .content2t .imgbx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.con2n .card2d .content2t .contentbx h4{
+   color: #674cc4;
+   font-size: 2rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1ps;
+}
+.con2n .card2d .content2t .contentbx h5{
+  color: #674cc4;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
+.con2n .card2d .content2t .contentbx h6{
+  color: #674cc4;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
+.con2n .card2d .content2t .sci{
+  margin-top: 20px;
+}
+.con2n .card2d .content2t .sci a{
+  text-decoration: none;
+  color: #674cc4;
+  font-size: 30px;
+}
+.con2n .card2d .content2t .sci a:hover{ 
+  color: #E1306C;
+}
+.card2d:hover{
+  transform: translateY(-10px);
+  transition: all 200ms;
+  border: 1px solid #674cc4;
+}
+@media(max-width:900px){
 
+}
+@media(max-width:600px){
 
+}
