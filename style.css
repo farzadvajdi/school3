@@ -72,18 +72,18 @@ section{
     left: 120%;
 }
 
-.Swiper {
+.swiper {
   width: 100%;
   height: 100vh;
 }
 @media (max-width:1024px){
-    .Swiper {
+    .swiper {
     width: 100%;
     height: 100vh;
   } 
 }
 @media (max-width:700px){
-  .Swiper {
+  .swiper {
   width: 100%;
   height: 100%;
 } 
