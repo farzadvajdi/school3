@@ -1,5 +1,5 @@
 <?php 
-$server = "localhost";
+$server = "github.com";
 $kodmelli = "root";
 $password = "";
 $database = "school 3";
